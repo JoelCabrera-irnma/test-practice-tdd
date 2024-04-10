@@ -1,5 +1,3 @@
-const object =[1,8,3,4,2,6];
-
 const analyzeArray = (arr) => {
     const lg = arr.length
     const av = average(arr, lg)
@@ -38,5 +36,5 @@ const maximo = (arr) => {
     })
 }
 
+export default analyzeArray
 
-console.log(analyzeArray(object))
